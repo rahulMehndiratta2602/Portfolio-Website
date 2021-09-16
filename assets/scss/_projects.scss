@@ -2,15 +2,8 @@
   padding-bottom: 2rem;
 
   &__bio-image {
-    height: 30vh;
-    width: 100%;
     background: 
-      linear-gradient(
-        to right,
-        rgba($primary-color, 0.9),
-        rgba($primary-color, 0.3)
-      ),
-      url('../img/me.png') right top;
+      rgb(41, 54, 44);
     background-size: cover;
     display: flex;
     flex-direction: column;
