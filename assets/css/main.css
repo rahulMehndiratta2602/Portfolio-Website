@@ -404,8 +404,18 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  font-size: 1.5rem;
+  grid-gap: 3rem;
+  font-size: 1.4rem;
+}
+
+.contact__list .contact__phone {
+  position: relative;
+  left: 3rem;
+}
+
+.contact__list .contact__address {
+  position: relative;
+  left: 3rem;
 }
 
 .contact .social-icons {
